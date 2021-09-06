@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/tailwind.css">
+    <link rel="stylesheet" href="/public/css/listStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>MY Portfolio</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <nav class="md:flex items-center justify-between px-56 py-4 sticky top-0 bg-white z-10">
+            <h3 class="font-bold text-lg text-gray-600">Jafarammer</h3>
+            <div>
+                <a class="ml-12 text-gray-600 font-semibold nav__link active" href="#home">Home</a>
+                <a class="ml-12 text-gray-600 font-semibold nav__link" href="#about">About</a>
+                <a class="ml-12 text-gray-600 font-semibold nav__link" href="#skill">Skills</a>
+                <a class="ml-12 text-gray-600 font-semibold nav__link" href="#work">Work</a>
+                <a class="ml-12 text-gray-600 font-semibold nav__link" href="#contact">Contact</a>
+            </div>
+        </nav>
+        <section class="flex  mx-56 pt-20 h-screen" id="home">
+            <div class="text-left w-4/6">
+                <h1 class="home__title font-extrabold text-6xl leading-normal mb-10">Hi,<br>I'am <span class="text-blue-900">Jafar</span><br> Front-End Developer</h1>
+                <a href="#contact" class="button bg-blue-900 py-3 px-8 text-white rounded-md font-semibold hover:bg-blue-800">Contact</a>
+                <div class="flex mt-40">
+                    <a href="https://github.com/Jafarammer" target="_blank" class="home__social-icon ml-5 text-5xl hover:text-gray-700"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/wanjafar" target="_blank" class="home__social-icon ml-5 text-5xl text-blue-600 hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/jafal_kaff/" target="_blank" class="home__social-icon ml-5 text-5xl text-pink-600 hover:text-pink-400"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/wan.jafar.3" target="_blank" class="home__social-icon ml-5 text-5xl text-blue-900 hover:text-blue-700"><i class="fab fa-facebook-square"></i></a>
+                </div>
+            </div>
+            <div class="w-2/6">
+                <div class=" absolute w-96 z-0 mt-8 ml-12">
+                    <img src="/src/img/work/2.JPG" class="home__img" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="mx-56 h-screen">
+            <h2 class="text-center text-blue-900 py-16 text-xl font-bold section-title" id="about">About Me</h2>
+            <div class="flex">
+                <div class="w-2/6 h-96">
+                    <img src="src/img/profile1.jpg" class="about__img h-full float-right rounded-md" alt="">
+                </div>
+                <div class="w-4/6 h-96 px-8">
+                    <p class="about__text text-center mt-12 text-gray-500 text-lg">
+                        My name is Jafar, I am a Front End Developer based in Indonesia.
+                        I really like the world of programming. I've worked in the company before
+                        Aviation & Aviation industry, I don't like it.
+                        In my spare time, I always learn about programming until now for
+                        add to my skills in the world of programming.
+                        Now I can create an attractive website display, sharing the work is the result of learning
+                        me all this time.
+                        I really hope that there is a company that will accept me as a Front end Developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="mx-56 h-screen">
+            <h2 class="text-center text-blue-900 py-16 text-xl font-bold section-title" id="skill">Skills</h2>
+            <div class="flex">
+                <div class="text-left w-3/6">
+                    <div class="grid grid-cols-3 gap-4 px-2 my-8">
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <i class="fab fa-html5 text-7xl" style="color: orangered;"></i>
+                            <p class="font-semibold mt-3">HTML 5</p>
+                        </div>
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <i class="fab fa-css3-alt text-7xl text-blue-600"></i>
+                            <p class="font-semibold mt-3">CSS 3</p>
+                        </div>
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <i class="fab fa-js-square text-7xl text-yellow-400"></i>
+                            <p class="font-semibold mt-3">Javascript</p>
+                        </div>
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <i class="fab fa-bootstrap text-7xl text-purple-500"></i>
+                            <p class="font-semibold mt-3">Bootstrap</p>
+                        </div>
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <img src="src/img/tailwind-css.png" class="h-14 ml-9 mt-3" alt="">
+                            <p class="font-semibold mt-4">Tailwind CSS</p>
+                        </div>
+                        <div class="skills__data bg-gray-100 text-center rounded-md shadow-md py-2 transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                            <i class="fab fa-react text-7xl text-blue-400"></i>
+                            <p class="font-semibold mt-3">React JS</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="w-3/6 px-5">
+                    <img src="src/img/coding.jpg" class="skills__img rounded-lg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="mx-56 h-screen">
+            <h2 class="text-center text-blue-900 py-16 text-xl font-bold section-title" id="work">Work</h2>
+            <h3 class="work__data mb-12 text-lg">Click one of the images below to do a test</h3>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="work__data showModal cursor-pointer">
+                    <img src="src/img/work/ecom1.png" class="object-cover rounded-lg transition duration-1000 ease-in-out  hover:opacity-50" alt="">
+                </div>
+                <div class="work__data showModal1 cursor-pointer">
+                    <img src="src/img/work/homestay1.png" class="object-cover rounded-lg transition duration-1000 ease-in-out  hover:opacity-50" alt="">
+                </div>
+                <div class="work__data showModal2 cursor-pointer">
+                    <img src="src/img/work/pos1.png" class="object-cover rounded-lg transition duration-1000 ease-in-out  hover:opacity-50" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="mx-56 h-screen">
+            <h2 class="text-center text-blue-900 py-16 text-xl font-bold section-title" id="contact">Contact Me</h2>
+                <div class="w-full flex flex-col items-center">
+                    <form action="https://formspree.io/f/xqkwwgep" method="POST"  class="bg-white w-3/6 rounded px-8 pt-6 pb-8 mb-4">
+                        <div class="status"></div>
+                        <div class="mb-4">
+                            <label class="contact__input block text-blue-900 text-sm font-bold mb-2" for="email">
+                              Email
+                            </label>
+                            <input class="contact__input email shadow appearance-none border border-blue-900 rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" name="email" placeholder="Email">
+                          </div>
+                        <div class="mb-4">
+                            <label class="contact__input block text-blue-900 text-sm font-bold mb-2" for="subject">
+                              Subject
+                            </label>
+                            <input class="contact__input subject shadow appearance-none border border-blue-900 rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="subject" type="text" name="subject" placeholder="Subject">
+                          </div>
+                        <div class="mb-4">
+                            <label class="contact__input block text-blue-900 text-sm font-bold mb-2" for="message">
+                              Message
+                            </label>
+                            <textarea class="contact__input message shadow appearance-none border border-blue-900 rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" cols="30" rows="10"></textarea>
+                          </div>
+                          <button type="submit" class="contact__input submit bg-blue-900 text-white float-right py-3 px-7 rounded-md hover:bg-blue-800 font-semibold">Send</button>
+                    </form>
+                </div>
+        </section>
+         <!-- Footer -->
+        <footer class="bg-blue-900 text-center py-10 mt-44">
+            <h1 class="font-extrabold text-4xl text-white mb-8">Jafarammer</h1>
+            <div class="flex mb-8 justify-center">
+                <a href="https://github.com/Jafarammer" target="_blank" class="ml-2 mr-2 text-3xl hover:text-gray-500"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/wanjafar" target="_blank" class="ml-2 mr-2 text-3xl text-white hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jafal_kaff/" target="_blank" class="ml-2 mr-2 text-3xl text-pink-600 hover:text-pink-400"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/wan.jafar.3" target="_blank" class="ml-2 mr-2 text-3xl text-white hover:text-gray-300"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <p class="font-semibold text-white">&#169; 2021 copyright all right reserved</p>
+        </footer>
+         <!-- End Footer -->
+
+        <!-- Modal -->
+        <div class="modal h-screen w-full fixed left-0 top-5 flex justify-center items-center bg-black bg-opacity-50 hidden">
+            <div class="container-modal bg-gray-200 rounded shadow-lg w-auto">
+                <!-- modal header -->
+                <!-- <div class="border-b px-4 py-2">
+                    <h3>Modal Title</h3>
+                </div> -->
+                <!-- modal body -->
+                <div class="p-3 container-modal">
+                        <img src="src/img/work/ecom1.png" alt="" class="jumbo rounded-md border-4 border-white">
+                        <div class="grid grid-cols-3 gap-4 mt-3">
+                            <img src="src/img/work/ecom1.png" alt="" class="thumb">
+                            <img src="src/img/work/ecom2.png" alt="" class="thumb">
+                            <img src="src/img/work/ecom3.png" alt="" class="thumb">
+                        </div>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button class="closeModal bg-red-600 hover:bg-red-500 px-3 py-1 rounded text-white mr-2">Skip</button>
+                    <a href="https://jafarammer.github.io/" target="_blank" class="bg-blue-900 hover:bg-blue-800 px-3 py-1 rounded text-white">Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+        <!-- Modal1 -->
+        <div class="modal1 h-screen w-full fixed left-0 top-5 flex justify-center items-center bg-black bg-opacity-50 hidden">
+            <div class="container-modal bg-gray-200 rounded shadow-lg w-auto">
+                <!-- modal header -->
+                <!-- <div class="border-b px-4 py-2">
+                    <h3>Modal Title</h3>
+                </div> -->
+                <!-- modal body -->
+                <div class="p-3 container-modal1">
+                        <img src="src/img/work/homestay1.png" alt="" class="jumbo1 rounded-md border-4 border-white">
+                        <div class="grid grid-cols-3 gap-4 mt-3">
+                            <img src="src/img/work/homestay1.png" alt="" class="thumb1">
+                            <img src="src/img/work/homestay2.png" alt="" class="thumb1">
+                            <img src="src/img/work/homestay3.png" alt="" class="thumb1">
+                        </div>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button class="closeModal1 bg-red-600 hover:bg-red-500 px-3 py-1 rounded text-white mr-2">Skip</button>
+                    <a href="https://jafarammer.github.io/homestay/" target="_blank" class="bg-blue-900 hover:bg-blue-800 px-3 py-1 rounded text-white">Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal1 -->
+
+        <!-- Modal2 -->
+        <div class="modal2 h-screen w-full fixed left-0 top-5 flex justify-center items-center bg-black bg-opacity-50 hidden">
+            <div class="container-modal bg-gray-200 rounded shadow-lg w-auto">
+                <!-- modal header -->
+                <!-- <div class="border-b px-4 py-2">
+                    <h3>Modal Title</h3>
+                </div> -->
+                <!-- modal body -->
+                <div class="p-3 container-modal2">
+                        <img src="src/img/work/pos1.png" alt="" class="jumbo2 rounded-md border-4 border-white">
+                        <div class="grid grid-cols-3 gap-4 mt-3">
+                            <img src="src/img/work/pos1.png" alt="" class="thumb2">
+                            <img src="src/img/work/pos2.png" alt="" class="thumb2">
+                            <img src="src/img/work/pos3.png" alt="" class="thumb2">
+                        </div>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button class="closeModal2 bg-red-600 hover:bg-red-500 px-3 py-1 rounded text-white mr-2">Skip</button>
+                    <a href="https://unruffled-galileo-d1035b.netlify.app" target="_blank" class="bg-blue-900 hover:bg-blue-800 px-3 py-1 rounded text-white">Demo</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal1 -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/public/main.js"></script>
+    <script src="/public/mail.js"></script>
+</body>
+</html>
